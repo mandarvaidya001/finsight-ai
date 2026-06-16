@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Advisor from "./pages/Advisor";
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000/api",
+  baseURL: "https://finsight-backend-a2m2.onrender.com/api",
   timeout: 10000,
 });
 
