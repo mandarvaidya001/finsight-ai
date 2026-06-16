@@ -1,0 +1,56 @@
+# Python
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+.venv/
+venv/
+env/
+
+# FastAPI
+
+*.log
+
+# Data files (optional)
+
+data/*.xlsx
+data/*.csv
+
+# React / Node
+
+node_modules/
+frontend/node_modules/
+
+# Build folders
+
+build/
+dist/
+frontend/build/
+frontend/dist/
+
+# Environment variables
+
+.env
+.env.local
+.env.production
+.env.development
+
+# VS Code
+
+.vscode/
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Testing
+
+.pytest_cache/
+
+# Coverage
+
+coverage/
+htmlcov/
